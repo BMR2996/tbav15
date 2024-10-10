@@ -1,0 +1,91 @@
+body {
+    /* Define que o layout será flexível, com os elementos filhos do body dispostos em um contêiner flexível */
+    display: flex;
+    
+    /* Centraliza o conteúdo do body horizontalmente */
+    justify-content: center;
+    
+    /* Centraliza o conteúdo do body verticalmente */
+    align-items: center;
+    
+    /* Define a altura do body para ocupar 100% da altura da viewport */
+    height: 100vh;
+    
+    /* Remove as margens padrão do body */
+    margin: 0;
+    
+    /* Organiza os itens dentro do body em uma coluna */
+    flex-direction: column;
+    
+    /* Define a fonte padrão usada no site */
+    font-family: Arial, sans-serif;
+    
+    /* Define a cor de fundo do body */
+    background-color: #f0f0f0;
+}
+
+h2 {
+    /* Define um espaço inferior (margem) de 20px para o título h2 */
+    margin-bottom: 20px;
+}
+
+form {
+    /* Define um espaço inferior (margem) de 20px para o formulário */
+    margin-bottom: 20px;
+    
+    /* Centraliza o texto dentro do formulário */
+    text-align: center;
+}
+
+table {
+    /* Define a largura da tabela como 80% da largura do contêiner */
+    width: 80%;
+    
+    /* Remove espaços entre as bordas das células */
+    border-collapse: collapse;
+    
+    /* Define a cor de fundo da tabela como branca */
+    background-color: #fff;
+}
+
+th, td {
+    /* Define o preenchimento interno das células (espaçamento) */
+    padding: 10px;
+    
+    /* Centraliza o conteúdo do texto nas células */
+    text-align: center;
+    
+    /* Adiciona uma borda em torno de cada célula da tabela */
+    border: 1px solid #ddd;
+}
+
+th {
+    /* Define a cor de fundo das células de cabeçalho */
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    /* Alterna a cor de fundo das linhas pares para melhorar a legibilidade */
+    background-color: #f9f9f9;
+}
+
+a {
+    /* Remove o sublinhado dos links */
+    text-decoration: none;
+    
+    /* Define a cor dos links como azul */
+    color: blue;
+}
+
+a:hover {
+    /* Sobrescreve o estilo do link quando o cursor do mouse está sobre ele, adicionando sublinhado */
+    text-decoration: underline;
+}
+
+.botao {
+    /* Adiciona uma borda preta ao botão */
+    border: 1px solid black;
+    
+    /* Arredonda os cantos do botão */
+    border-radius: 5px;
+}
